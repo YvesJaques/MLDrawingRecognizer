@@ -3,6 +3,10 @@ body {
     background-color: skyblue;
 }
 
+html {
+    overscroll-behavior: none;
+}
+
 #content {
     position: absolute;
     top: 50%;
