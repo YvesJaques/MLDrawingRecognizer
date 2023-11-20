@@ -22,7 +22,15 @@ class SketchPad {
         this.isDrawing = false;
         this.#redraw();
 
+        this.reset();
+
         this.#addEventListeners();
+    }
+
+    reset() {
+        this.paths = [];
+        this.isDrawing = false;
+        this.#redraw();
     }
 
     #addEventListeners() {
