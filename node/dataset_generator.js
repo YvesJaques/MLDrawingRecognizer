@@ -1,3 +1,8 @@
+const draw = require('../common/draw.js')
+
+const { createCanvas } = require('canvas');
+const canvas = createCanvas(400, 400);
+const ctx = canvas.getContext('2d');
 const constants = {};
 
 constants.DATA_DIR = "../data";
